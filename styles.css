@@ -131,8 +131,8 @@ main {
 }
 
 .blackBoton {
-  margin: 16px 16px;
-  width: 90%;
+  margin: 16px 16px 5px;
+  width: 100%;
   height: 50px;
   background: #1a2236;
   color: #fff;
@@ -169,7 +169,7 @@ h2 {
 .Cards {
   display: flex;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 100%;
 }
 
 .P-Data {
@@ -245,10 +245,10 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0;
-  padding-left: 35px;
-  width: 215px;
-  height: 210px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 96%;
+  height: 95%;
 }
 
 .languages {
@@ -272,13 +272,16 @@ h3 {
 h4 {
   font-size: 20px;
   font-weight: 800;
-  color: #fff;
+  color: white;
+  padding-left: 20px;
 }
 
 .inBox {
-  color: #fff;
+  color: white;
   list-style-position: inside;
   justify-self: center;
+  justify-content: center;
+  padding-left: 20px;
 }
 
 button {
