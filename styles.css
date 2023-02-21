@@ -294,3 +294,49 @@ button:hover {
   border-color: black;
   border-width: 0.3rem;
 }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  background: #f9f9fa;
+  background-image: url(images/image_geometry_1.png);
+  background-repeat: no-repeat;
+  padding: 1px;
+}
+
+.gap {
+  height: 106px;
+}
+
+.c-form {
+  width: 100%;
+}
+
+.f-header {
+  display:flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.getStart {
+  font-family: 'Playfair', serif ;
+  font-size: 45px;
+  font-weight: 400px;
+  font-style: normal;
+  line-height: 100%;
+}
+
+.f-name {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #dfdfe0;
+  font-family: 'Popins', sans-serif;
+  font-weight: 400px;
+  font-size: 12px;
+  font-style: normal;
+  margin:10px 20px ;
+  height: 50px;
+  color: darkgrey;
+  padding-top: 4px;
+  padding-left: 16px;
+}
