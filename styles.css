@@ -132,7 +132,7 @@ main {
 
 .blackBoton {
   margin: 16px 16px 5px;
-  width: 100%;
+  width: 90%;
   height: 50px;
   background: #1a2236;
   color: #fff;
@@ -360,7 +360,6 @@ button:hover {
   flex-direction: column;
   border-radius: 4px;
   background-color: #fff;
-  border: 1px solid #dfdfe0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
