@@ -329,7 +329,6 @@ button:hover {
 .f-name {
   display: flex;
   flex-direction: column;
-  border: 2px solid #dfdfe0;
   font-family: 'Popins', sans-serif;
   font-weight: 400px;
   font-size: 12px;
@@ -339,4 +338,93 @@ button:hover {
   color: darkgrey;
   padding-top: 4px;
   padding-left: 16px;
+  border-radius: 1px solid #dfdfe0;
+}
+
+/* hover effect for input field */
+.f-name:hover {
+  border: 1px solid black;
+}
+
+.form-name-content {
+  border: none;
+  background: #fff;
+}
+
+.form-name-content:active {
+  border: white;
+}
+
+.form-text {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #dfdfe0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 8px 18px;
+  height: 90px;
+  min-width: 89%;
+  max-width: 400px;
+  padding-left: 16px;
+  padding-top: 8px;
+}
+
+label {
+  border-radius: 4px;
+  border: none;
+  background: #fff;
+}
+
+.cfooter {
+  background: #1a2236;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textAbout {
+  height: fit-content;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+  padding: 18px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.resume {
+  display: flex;
+  align-items: center;
+  border: transparent;
+  color: #92dcdc;
+  flex-grow: 2;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.rsFooter {
+  align-self: center;
+  background: #1a2236;
+  width: 100vw;
+  max-width: 100%;
+  padding: 20px 30px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rrss {
+  background-color: transparent;
+  list-style: none;
+  transition-duration: 1.7s;
+  cursor: pointer;
+}
+
+.rrss:hover {
+  zoom: 1.15;
 }
