@@ -313,13 +313,13 @@ button:hover {
 }
 
 .f-header {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: left;
 }
 
 .getStart {
-  font-family: 'Playfair', serif ;
+  font-family: 'Playfair', serif;
   font-size: 45px;
   font-weight: 400px;
   font-style: normal;
@@ -333,7 +333,7 @@ button:hover {
   font-weight: 400px;
   font-size: 12px;
   font-style: normal;
-  margin:10px 20px ;
+  margin: 10px 20px;
   height: 50px;
   color: darkgrey;
   padding-top: 4px;
