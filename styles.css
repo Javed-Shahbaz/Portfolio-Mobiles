@@ -132,7 +132,7 @@ main {
 
 .blackBoton {
   margin: 16px 16px 5px;
-  width: 100%;
+  width: 90%;
   height: 50px;
   background: #1a2236;
   color: #fff;
@@ -293,4 +293,138 @@ button:hover {
   background: #1a2236;
   border-color: black;
   border-width: 0.3rem;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  background: #f9f9fa;
+  background-image: url(images/image_geometry_1.png);
+  background-repeat: no-repeat;
+  padding: 1px;
+}
+
+.gap {
+  height: 106px;
+}
+
+.c-form {
+  width: 100%;
+}
+
+.f-header {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.getStart {
+  font-family: 'Playfair', serif;
+  font-size: 45px;
+  font-weight: 400px;
+  font-style: normal;
+  line-height: 100%;
+}
+
+.f-name {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Popins', sans-serif;
+  font-weight: 400px;
+  font-size: 12px;
+  font-style: normal;
+  margin: 10px 20px;
+  height: 50px;
+  color: darkgrey;
+  padding-top: 4px;
+  padding-left: 16px;
+  border-radius: 1px solid #dfdfe0;
+}
+
+/* hover effect for input field */
+.f-name:hover {
+  border: 1px solid black;
+}
+
+.form-name-content {
+  border: none;
+  background: #fff;
+}
+
+.form-name-content:active {
+  border: white;
+}
+
+.form-text {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 8px 18px;
+  height: 90px;
+  min-width: 89%;
+  max-width: 400px;
+  padding-left: 16px;
+  padding-top: 8px;
+}
+
+label {
+  border-radius: 3px;
+  border: none;
+  background: #fff;
+}
+
+.cfooter {
+  background: #1a2236;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textAbout {
+  height: fit-content;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+  padding: 18px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.resume {
+  display: flex;
+  align-items: center;
+  border: transparent;
+  color: #92dcdc;
+  flex-grow: 2;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.rsFooter {
+  align-self: center;
+  background: #1a2236;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 22px;
+  margin-right: 20px;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+.rrss {
+  background-color: transparent;
+  list-style: none;
+  transition-duration: 1.7s;
+  cursor: pointer;
+}
+
+.rrss:hover {
+  zoom: 1.15;
 }
