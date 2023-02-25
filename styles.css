@@ -1,18 +1,9 @@
-/* stylelint-disable CssSyntaxError */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
 body {
   background-image: url(images/image_geometry_1.png);
   background-repeat: no-repeat;
 }
 
-#toolbar {
+.toolbar {
   display: flex;
   justify-content: flex-end;
   margin: 16px;
@@ -381,7 +372,7 @@ label {
 @media only screen and (min-width: 768px) {
   /* Header change nav */
 
-  #toolbar {
+  .toolbar {
     display: none;
   }
 
@@ -446,11 +437,11 @@ label {
   }
 
   .Name {
-    font-size: calc(10vw - 3vw);
+    font-size: calc(10vw - 2vw);
   }
 
   .bigImage {
-    background-image: url("./images/image-big.png");
+    background-image: url(images/image-big.png);
     background-size: contain;
     background-repeat: no-repeat;
   }
